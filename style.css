@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url(yago.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 60rem;
+    background-position-x:28rem ;
+    background-position-y: 0rem;
+}
+
+h1{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    text-align: center;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1.05rem;
+    background-color: rgb(139, 38, 221);
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 54rem;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.button:hover{
+    background-color: rgb(93, 0, 168);
+}
